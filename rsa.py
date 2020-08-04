@@ -51,7 +51,7 @@ if isPrime(p) and isPrime(q):
     if e in lst:
         print('You have chosen ', e)
     else:
-        print('Inputted e is not in the list...')
+        print(e, 'is not in the list...')
         sys.exit()
 
     #finding d
