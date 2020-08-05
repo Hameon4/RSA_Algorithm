@@ -43,7 +43,7 @@ if isPrime(p) and isPrime(q):
         if gcf(i, phiN) == 1:
             lst.append(i)
             
-    print('Possible values of e from ', phiN, ': ')
+    print('Possible values of e from', phiN, ':\n')
     print('Values: ', lst)
     print('\n')
     e = int(input('Choose from one of them: '))
@@ -63,14 +63,14 @@ if isPrime(p) and isPrime(q):
 
 
     #Details
-    print('Details: ')
-    print('p = ', p)
-    print('q = ', q)
-    print('n = ', n)
-    print('Totient = ', phiN)
-    print('e = ', e)
-    print('d = ', d)
-
+    print('\nDetails: ')
+    print(' p = ', p)
+    print(' q = ', q)
+    print(' n = ', n)
+    print(' Totient = ', phiN)
+    print(' e = ', e)
+    print(' d = ', d)
+    print('\nKey Details: ')
     print('Public Key: {',e,',', n,'}')
     print('Private Key: {',d,',', n,'}')
 
